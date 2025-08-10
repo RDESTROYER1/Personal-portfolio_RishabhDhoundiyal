@@ -259,12 +259,28 @@ footer {
 
   img {
     max-width: 100%;
-    height: auto;
+      height: auto;
+    
   }
+    nav {
+    width: 100%;
+    box-sizing: border-box;
+  }
+
 
  
   nav a {
     font-size: 0.9rem;
     padding: 8px;
   }
+    footer {
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  footer p,
+  footer a {
+    font-size: 0.9rem;
+  }
 }
+
