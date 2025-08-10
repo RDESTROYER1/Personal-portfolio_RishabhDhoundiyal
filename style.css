@@ -229,5 +229,98 @@ footer {
     border-radius: 6px;
     font-size: 16px;
     cursor: pointer;
+}
+/*tablet*/
+
+@media screen and (max-width: 1024px) {
+    nav {
+        flex-direction: column;
+        height: auto;
+        padding: 15px 0;
+    }
+
+    nav ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+
+    .firstsection {
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+        margin: 50px 0;
+        padding: 0 10px;
+    }
+
+    .leftsection {
+        width: 90%;
+        font-size: 28px;
+        margin: 20px 0;
+        text-align: center;
+    }
+
+    .secondsection {
+        max-width: 95vw;
+        height: auto;
+    }
+
+    .secondsection .box {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        margin: 30px 0;
+    }
+
+    .secondsection .vertical {
+        display: none; 
+    }
+
+    .title,
+    .desc {
+        text-align: center;
+        position: static;
+        margin-top: 10px;
+    }
+
+    .footer {
+        flex-direction: column;
+        gap: 15px;
+        text-align: center;
+    }
+
+    .rightsection {
+        margin-right: 0;
+    }
+}
+/*mobile*/
+
+@media screen and (max-width: 600px) {
+    .leftsection {
+        font-size: 22px;
+    }
+
+    nav ul {
+        gap: 6px;
+    }
+
+    .firstsection {
+        margin: 30px 0;
+    }
+
+    .secondsection .box {
+        margin: 20px 0;
+    }
+
+    .footer {
+        font-size: 14px;
+        gap: 10px;
+    }
+}
+
+
 
 }
