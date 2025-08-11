@@ -66,7 +66,7 @@
                     <div class="desc">
                         <b>- Working on front-end development using HTML, CSS, JavaScript.
                             - Contributing to responsive design and user interface enhancements.</b>
-                        <button class="btk" >View Certificate</button>
+                        <button class="btk" data-link="https://github.com/user-attachments/files/21710390/Rishabh.Dhoundiyal.OL.pdf">View Certificate</button>
 
 
                     </div>
@@ -83,7 +83,8 @@
                         <b>Explored real-world applications of generative AI in business workflows.
                             Applied prompt engineering techniques to generate business insights.
                             Simulated decision-making in AI use-case implementation scenarios.</b>
-                        <button class="btk" >View Certificate</button>
+                        <button class="btk" data-link="https://github.com/user-attachments/files/21710327/tata.gen.ai.certificate.pdf" >View Certificate</button>
+                    
 
                     </div>
                 </div>
@@ -98,7 +99,7 @@
                     <div class="desc">
                         <b>Identified and reported security breaches in a simulated client environment.
                             Reviewed internal cybersecurity policies and recommended improvements.</b>
-                        <button class="btk">View Certificate</button>
+                        <button class="btk" data-link="https://github.com/user-attachments/files/21710388/deloitte.pdf">View Certificate</button>
 
 
 
@@ -135,20 +136,31 @@
 
     </footer>
     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
-    <!-- Setup and start animation! -->
+
     <script>
         var typed = new Typed('#element', {
             strings: ['Learner', 'Tech Enthusiast', 'Web Developer'],
             typeSpeed: 50,
         });
     </script>
+    
 
 
     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
     <script src="script.js"></script>
+    <script>
+document.querySelectorAll('.btk').forEach(button => {
+    button.addEventListener('click', () => {
+        const link = button.getAttribute('data-link');
+        window.open(link, '_blank'); // opens in new tab
+    });
+});
+</script>
+
 
 </body>
 
 
 </html>
+
 
