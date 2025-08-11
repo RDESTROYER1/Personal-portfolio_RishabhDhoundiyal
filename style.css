@@ -121,7 +121,7 @@ main hr {
     height: 2px;
     margin: 56px 0;
     display: flex;
-    background-color: rgba(6, 2, 2, 0.2);
+    background-color: rgba(6, 2, 2, 0.3);
 
 }
 
@@ -309,6 +309,7 @@ footer {
     font-size: 0.9rem;
   }
 }
+
 
 
 
