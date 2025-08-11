@@ -251,6 +251,10 @@ footer {
      color: rgb(170, 107, 228);
      font-size: 1.02rem;
 }
+main {
+    margin-bottom: 50px; 
+}
+
 
     
 /* Tablet,Mobile*/
@@ -307,6 +311,7 @@ footer {
     font-size: 0.9rem;
   }
 }
+
 
 
 
