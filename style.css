@@ -229,6 +229,16 @@ footer {
     font-size: 16px;
     cursor: pointer;
 }
+.secondsection .btk
+{
+     padding: 12px;
+    background: rgb(170, 107, 228);
+    color: whitesmoke;
+    border: 2px solid #5A6E8C;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+}
 /* Tablet,Mobile*/
 @media screen and (max-width: 1024px) {
   
@@ -283,4 +293,5 @@ footer {
     font-size: 0.9rem;
   }
 }
+
 
