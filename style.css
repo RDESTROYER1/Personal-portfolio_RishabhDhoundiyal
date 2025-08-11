@@ -93,7 +93,8 @@ a:hover {
 .secondsection {
     max-width: 88vw;
     margin: auto;
-    height: 150vh;
+    min-height: 150vh; 
+    margin-bottom: 50px;
  
 }
 
@@ -164,7 +165,7 @@ footer {
 
 .footer {
     display: flex;
-    margin-top: -36px;
+    margin-top: 40px;
     justify-content: space-evenly;
     text-align: center;
 
@@ -251,9 +252,6 @@ footer {
      color: rgb(170, 107, 228);
      font-size: 1.02rem;
 }
-main {
-    margin-bottom: 50px; 
-}
 
 
     
@@ -311,6 +309,7 @@ main {
     font-size: 0.9rem;
   }
 }
+
 
 
 
