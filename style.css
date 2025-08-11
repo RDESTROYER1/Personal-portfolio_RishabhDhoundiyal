@@ -93,8 +93,8 @@ a:hover {
 .secondsection {
     max-width: 88vw;
     margin: auto;
-    height: 140vh;
-    background-color: rgba(6, 2, 2, 0.4);
+    height: 100vh;
+    background-color: rgba(6, 2, 2, 0.2);
 }
 
 main hr {
@@ -224,7 +224,7 @@ footer {
 .leftsection .btn {
     padding: 12px;
     background: rgb(170, 107, 228);
-    color: whitesmoke;
+    color: bisque;
     border: 2px solid #5A6E8C;
     border-radius: 6px;
     font-size: 16px;
@@ -232,13 +232,14 @@ footer {
 }
 .leftsection .btn:hover {
     background: bisque;
-    font-size: 1.14rem;
+    color:  rgb(170, 107, 228);
+    font-size: 1.02rem;
 }
 .secondsection .btk
 {
      padding: 12px;
     background: rgb(170, 107, 228);
-    color: whitesmoke;
+    color: bisque;
     border: 2px solid #5A6E8C;
     border-radius: 6px;
     font-size: 16px;
@@ -246,7 +247,8 @@ footer {
 }
 .secondsection .btk:hover {
      background: bisque;
-    font-size: 1.14rem;
+     color: rgb(170, 107, 228);
+     font-size: 1.02rem;
 }
 
     
@@ -304,6 +306,7 @@ footer {
     font-size: 0.9rem;
   }
 }
+
 
 
 
