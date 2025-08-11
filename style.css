@@ -94,6 +94,7 @@ a:hover {
     max-width: 88vw;
     margin: auto;
     height: 140vh;
+    background-color: rgba(6, 2, 2, 0.4);
 }
 
 main hr {
@@ -229,6 +230,10 @@ footer {
     font-size: 16px;
     cursor: pointer;
 }
+.leftsection .btn:hover {
+    background: bisque;
+    font-size: 1.14rem;
+}
 .secondsection .btk
 {
      padding: 12px;
@@ -239,6 +244,12 @@ footer {
     font-size: 16px;
     cursor: pointer;
 }
+.secondsection .btk:hover {
+     background: bisque;
+    font-size: 1.14rem;
+}
+
+    
 /* Tablet,Mobile*/
 @media screen and (max-width: 1024px) {
   
@@ -293,5 +304,6 @@ footer {
     font-size: 0.9rem;
   }
 }
+
 
 
