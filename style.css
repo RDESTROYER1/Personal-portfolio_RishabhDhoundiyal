@@ -248,7 +248,7 @@ footer {
 }
 .leftsection .btn:hover {
     background: bisque;
-    color:  rgb(170, 107, 228);
+    color:  rgb(170, 107, 228) !important;
     font-size: 1.02rem;
 }
 .leftsection .bto {
@@ -337,6 +337,7 @@ footer {
     font-size: 0.9rem;
   }
 }
+
 
 
 
