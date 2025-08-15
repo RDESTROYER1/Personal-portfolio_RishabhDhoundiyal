@@ -159,10 +159,21 @@ document.querySelectorAll('.btk').forEach(button => {
 </script>
 
 
+<script>
+document.querySelector('.bto').addEventListener('click', function () {
+    window.scrollBy({
+        top: window.innerHeight, // scroll down one screen height
+        left: 0,
+        behavior: 'smooth'
+    });
+});
+</script>
+
 </body>
 
 
 </html>
+
 
 
 
