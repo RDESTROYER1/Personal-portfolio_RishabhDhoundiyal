@@ -247,7 +247,7 @@ footer {
     cursor: pointer;
 }
 .leftsection .btn:hover {
-    background: bisque;
+    background: bisque !important;
     color:  rgb(170, 107, 228) !important;
     font-size: 1.02rem;
 }
@@ -337,6 +337,7 @@ footer {
     font-size: 0.9rem;
   }
 }
+
 
 
 
