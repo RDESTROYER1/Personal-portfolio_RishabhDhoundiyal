@@ -230,14 +230,15 @@ footer {
     justify-content: space-between; 
     gap: 8px;
     width: 100%;
-    max-width: 500px; 
+   
     
     margin-top: 20px;
 }
 .leftsection .bto,
 .leftsection .btn {
-    flex: 1; /* both buttons take equal space */
-    padding: 12px 0; /* taller but text stays centered */
+  
+    padding: 12px 0; 
+    width: 200px;
     font-size: 16px;
     border-radius: 6px;
     cursor: pointer;
@@ -343,6 +344,7 @@ footer {
     font-size: 0.9rem;
   }
 }
+
 
 
 
