@@ -8,3 +8,9 @@ var typed = new Typed('#element', {
 document.getElementById("githubBtn").addEventListener("click", function () {
     window.open("https://github.com/RDESTROYER1", "_blank");
 });
+document.querySelector('.bto').addEventListener('click', () => {
+    document.querySelector('.secondsection').scrollIntoView({ 
+        behavior: 'smooth' 
+    });
+});
+
