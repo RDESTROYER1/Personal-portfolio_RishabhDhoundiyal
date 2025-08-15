@@ -227,7 +227,7 @@ footer {
 
 .buttons {
     display: flex;
-    justify-content: space-between; 
+    justify-content: flex-start; 
     gap: 8px;
     width: 100%;
    
@@ -344,6 +344,7 @@ footer {
     font-size: 0.9rem;
   }
 }
+
 
 
 
