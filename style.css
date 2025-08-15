@@ -239,6 +239,19 @@ footer {
     color:  rgb(170, 107, 228);
     font-size: 1.02rem;
 }
+.leftsection .bto {
+    padding: 12px;
+    color: bisque;
+    border: 2px solid #5A6E8C;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.leftsection .bto:hover {
+    background: bisque;
+    color:  rgb(170, 107, 228);
+    font-size: 1.02rem;
+}
 .secondsection .btk
 {
      padding: 12px;
@@ -311,6 +324,7 @@ footer {
     font-size: 0.9rem;
   }
 }
+
 
 
 
